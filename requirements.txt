@@ -1,0 +1,3 @@
+# This file contains the package names and versions required to run the project. One package per line.
+pandas==1.4.0
+PyYAML>=6.0
