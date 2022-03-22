@@ -5,11 +5,13 @@
     `python -m main --argument_1 value_1 --argument_2 --value_2`
 
     In the case of this example, use:
-    python -m main -m <message> -i <iterations>
+    python -m main -m <message> -i <iterations> -c <path/to/config/file> -s <path/to/secrets/file>
 
     Arguments:
         message (m): the message you want to print out to the console.
         iterations (i): The number of times you want to print it out.
+        config (c): The path to the config file.
+        secrets (s): The path to the secrets file.
 """
 # Define imports at the top of the file
 import argparse
@@ -18,7 +20,7 @@ from typing import Any, Dict
 import pandas as pd
 import yaml
 
-# Define constants after the imports
+# Define constants after the imports in all caps
 DEFAULT_MESSAGE = "FOO"
 DEFAULT_NUMBER_OF_ITERATIONS = 5
 DEFAULT_CONFIG_PATH = "../config.yaml"
@@ -40,7 +42,7 @@ def say_hello(message: str, n_iterations: int) -> None:
     return None
 
 
-def read_yaml(path: str) -> Dict[str, Any]:
+def read_yaml(path: str) -> Dict[Any, Any]:
     """Reads yaml files and returns their contents as a dictionary
 
     Arguments:
@@ -112,7 +114,7 @@ def main(message: str, n_iterations: int, config_path: str, secrets_path: str) -
         config_path -- _description_
         secrets_path -- _description_
     """
-    say_hello(message, iterations)
+    say_hello(message, n_iterations)
     config = read_yaml(config_path)
     secrets = read_yaml(secrets_path)
     print(f"secret token is {secrets['secret_token']}! Don't share it!")
