@@ -55,6 +55,21 @@ done! saved to <result path from config.yaml>"
 
 Then everything worked as intended.
 
+## Contact information
+Make sure that the contact info is up-to-date so that people can reach out of they have questions about the code or wish to bring up an issue.
+
+### Current maintainer:
+Jean-David Therrien
+email: jean-david.therrien.1@ulaval.ca
+
+### To report a bug:
+
+Please use GitHub's issues function.
+
+### For questions:
+
+Please reach out by email.
+
 ## References
 
 If the code was produced in relation to a specific publication, add the reference and DOI of the publication.
