@@ -17,6 +17,13 @@ In the case of this example:
 * run the command: `pip install -r requirements.txt` if you want to **use the project, but not contribute to it**.
 * run the command: `pip install -r requirements-dev.txt`if you want to **contribute to the project**.
 
+If you are a developer and want to check that the project runs as it should:
+
+At the root directory:
+
+* run the command : `pip install -U pytest`
+* run the command: `pytest`
+
 ## Usage
 
 Explain how to run the code. If the code is a library, how do you import it into your other projects? If the code is a script, what file should you run? with what command? What arguments?
