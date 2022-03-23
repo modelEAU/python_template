@@ -60,15 +60,20 @@ Make sure that the contact info is up-to-date so that people can reach out of th
 
 ### Current maintainer:
 Jean-David Therrien
+
 email: jean-david.therrien.1@ulaval.ca
 
 ### To report a bug:
 
-Please use GitHub's issues function.
+Please use GitHub's issues function, send me an email.
 
 ### For questions:
 
 Please reach out by email.
+
+### Intended support period
+
+This template was created as a support tool for an internal workshop. Though I intend to get it working and help my colleagues use it until the end of my PhD studies (2023), updates may not occur very often.
 
 ## References
 
