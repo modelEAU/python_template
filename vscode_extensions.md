@@ -35,5 +35,3 @@ This file contains the extensions recommended for model*EAU* students working on
     Publisher: David Anson
 
     VS Marketplace Link: <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>
-
-## PyCharm

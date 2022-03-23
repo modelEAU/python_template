@@ -1,8 +1,7 @@
 """This file contains functions used to test the functionality of functions in the project. Name each test with the prefix test_.
 """
 import pandas as pd
-
-import main
+from src import main
 
 
 def test_square_series():
