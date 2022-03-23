@@ -6,5 +6,10 @@
       ],
     "python.linting.mypyEnabled": true,
     "python.linting.mypyCategorySeverity.note": "Information",
-    "python.linting.mypyCategorySeverity.error": "Error"
+    "python.linting.mypyCategorySeverity.error": "Error",
+    "python.testing.pytestArgs": [
+      "src"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }

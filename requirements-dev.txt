@@ -2,4 +2,5 @@
 -r requirements.txt
 flake8  # Used for style checking (linting)
 mypy  # Used for type checking
-types-PyYAML
+types-PyYAML # for type hinting with one of the dependencies (pyYAML)
+pytest  # to run the test functions
