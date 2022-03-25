@@ -7,6 +7,24 @@ Please include information on:
 * Why was the code written in the first place (nature of the project)?
 * What the code does and how it does it.
 
+For this template project:
+
+* This template was developed to help the momdel*EAU* research team make their code more [FAIR](https://www.nature.com/articles/sdata201618) by implementing [Lee et al. (2021)'s barely sufficient coding practices](https://doi.org/10.1016/j.patter.2021.100206) which ask that scientific code be:
+  
+  *  Available
+  *  Documented
+  *  Version controlled
+  *  Tested
+  *  Supported
+
+This repo was created to be used as a complete working example of those guidelines.
+
+It implements a handful of python functions in the `.src/main.py` file. The file can be run using the command line (see below). 
+
+Secret management is also implemented in this repo. The `secrets.yaml` file is meant to hold any confidential piece of information required to run your code. **Any new project using this repo must make sure that `secrets.yaml` is added to their `.gitignore` file!** Otherwise, you very well may share your secret usernames and passwords with the world!
+
+The repo also provides sample tests for the sample code. The tests are meant to be run using the pytest package.
+
 ## Installation
 
 * Outline the steps required to run the code on someone's machine.
@@ -16,13 +34,6 @@ In the case of this example:
 * Activate the virtual environment.
 * run the command: `pip install -r requirements.txt` if you want to **use the project, but not contribute to it**.
 * run the command: `pip install -r requirements-dev.txt`if you want to **contribute to the project**.
-
-If you are a developer and want to check that the project runs as it should:
-
-At the root directory:
-
-* run the command : `pip install -U pytest`
-* run the command: `pytest`
 
 ## Usage
 
@@ -61,6 +72,14 @@ done! saved to <result path from config.yaml>
 ```
 
 Then everything worked as intended.
+
+## Running tests
+
+Having installed the project's required packages using the `requirements.txt` file, you can run the repo's automated tests by using the command `pytest` at the root directory of the project. 
+
+Make sure the `pytest` package is installed in your developer environment by running `pip install -U pytest` at the root directory of the project. Then, run the `pytest` command. 
+
+A report will be generated indicating whether any of the tests are failing.
 
 ## Contact information
 Make sure that the contact info is up-to-date so that people can reach out if they have questions about the code or wish to bring up an issue.
