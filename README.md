@@ -9,7 +9,7 @@ Please include information on:
 
 For this template project:
 
-* This template was developed to help the momdel*EAU* research team make their code more [FAIR](https://www.nature.com/articles/sdata201618) by implementing [Lee et al. (2021)'s barely sufficient coding practices](https://doi.org/10.1016/j.patter.2021.100206) which ask that scientific code be:
+* This template was developed to help the model*EAU* research team make their code more [FAIR](https://www.nature.com/articles/sdata201618) by implementing [Lee et al. (2021)'s barely sufficient coding practices](https://doi.org/10.1016/j.patter.2021.100206) which ask that scientific code be:
   
   *  Available
   *  Documented
