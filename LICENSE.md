@@ -1,13 +1,5 @@
 # LICENSE
 
-## Instructions
-
-This file should contain the license of your code. Please refer to [Choose a License](https://choosealicense.com/) to make your choice of license. If you are not sure, condider using the [MIT License](https://choosealicense.com/licenses/mit/).
-
-Delete the explainer text above and copy the license text in this file and fill in the blanks.
-
-## Example
-
 MIT License
 
 Copyright (c) [INSERT YEAR HERE] [INSERT FULL NAMES OF AUTHORS HERE]

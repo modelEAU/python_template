@@ -168,3 +168,4 @@ cython_debug/
 secrets.yaml
 .vscode/
 result/
+data/

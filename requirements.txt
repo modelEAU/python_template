@@ -1,3 +1,7 @@
-# This file contains the package names and versions required to run the project. One package per line.
-pandas==1.4.0
-PyYAML>=6.0
+pandas==1.4.1
+plotly==5.6.0
+scipy==1.6.1
+sqlalchemy>=1.4.31
+pyodbc>=4.0.32
+pydantic==1.9.0
+pyyaml==6.0

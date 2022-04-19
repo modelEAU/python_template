@@ -1,4 +1,0 @@
-# This file should contain settings that can be useful to scripts and that do not belong in source code (e.g., file paths, lists of columns to read in a file, etc.)
-source_path: "/Users/jeandavidt/dev/modelEAU/python_template/data/sample_data.csv"
-column_to_process: "col2"
-result_path: "/Users/jeandavidt/dev/modelEAU/python_template/result/result.csv"
