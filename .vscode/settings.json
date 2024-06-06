@@ -4,7 +4,7 @@
     "python.linting.flake8Args": [
         "--ignore=E501"
       ],
-    "python.linting.mypyEnabled": false,
+    "python.linting.mypyEnabled": true,
     "python.linting.mypyCategorySeverity.note": "Information",
     "python.linting.mypyCategorySeverity.error": "Error",
     "python.testing.pytestArgs": [
